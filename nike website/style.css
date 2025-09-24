@@ -1,0 +1,512 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: bahnschrift;
+    overflow-x: hidden;
+}
+
+.master {
+    background-color: #F5F5F5;
+    height: 100%;
+    width: 100%;
+}
+
+.logo-bar {
+    height: 9%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jordan {
+    height: 40%;
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nike {
+    height: 60%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jordanlogo img {
+    height: 100%;
+    padding-left: 50px;
+}
+
+.jordanlogo {
+    width: 20%;
+}
+
+.nikelogo img {
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.jordanmenu {
+    margin-top: 10px;
+    margin-right: 2%;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jordanmenu a {
+    font-family: bahnschrift;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color;
+}
+
+.jordanmenu a:hover {
+    color: gray;
+}
+
+.nikemenu {
+    margin-top: 17px;
+    margin-right: 2%;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.nikemenu a {
+    font-family: bahnschrift;
+    color: black;
+    text-decoration: none;
+}
+
+.nikemenu a:hover {
+    text-decoration: underline;
+}
+
+.nikelogo {
+    width: 20%;
+}
+
+.nikenav {
+    width: 20%;
+    display: flex;
+}
+
+.search {
+    background-color: #F5F5F5;
+    width: 200px;
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 9px;
+    font-family: bahnschrift;
+    font-size: 20px;
+    color: gray;
+    position: relative;
+}
+
+.search:hover {
+    background-color: #E5E5E5;
+}
+
+.search img {
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 2px;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+}
+
+.search font {
+    position: relative;
+    top: -8px;
+    left: 15px;
+}
+
+.icons {
+    width: 30%;
+    height: 100%;
+}
+
+.icons img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.icons img:hover {
+    background-color: #E5E5E5;
+}
+
+.text {
+    font-family: bahnschrift;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.text b {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+}
+
+.bodyimage {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border: solid black 1px;
+    flex-direction: column;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.shop {
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.shop:hover {
+    background-color: #707072;
+}
+
+.wshop {
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.wshop:hover {
+    background-color: #707072;
+}
+
+.shop b {
+    position: relative;
+    top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.wshop b {
+    position: relative;
+    top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.latest a {
+    font-size: 30px;
+    padding-left: 3%;
+    right: 5px;
+    position: relative;
+}
+
+.latest {
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    display: flex;
+}
+
+.col {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1,
+.img2,
+.img3,
+.img5,
+.img6,
+.img7 {
+    width: 30%;
+    background-color: #707072;
+    height: 100%;
+    position: relative;
+}
+
+.img1 {
+    background: url('v2k.jpg');
+    background-position: center;
+    transition: 0.5s ease-in;
+    background-size: 150%;
+}
+
+.img1:hover {
+    background-size: 180%;
+}
+
+.img2 {
+    background: url('ekiden.jpg');
+    background-position: center;
+    transition: 0.5s ease-in;
+    background-size: 130%;
+}
+
+.img2:hover {
+    background-size: 150%;
+}
+
+.img3 {
+    background: url('sb.jpg');
+    background-position: center;
+    transition: 0.5s ease-in;
+    background-size: 150%;
+}
+
+.img3:hover {
+    background-size: 170%;
+}
+
+.img5 {
+    background: url('member1.jpg');
+    background-position: center;
+    transition: 0.5s ease-in;
+    background-size: 120%;
+}
+
+.img5:hover {
+    background-size: 130%;
+}
+
+.img6 {
+    background: url('member2.jpg');
+    background-position: center;
+    transition: 0.5s ease-in;
+    background-size: 120%;
+}
+
+.img6:hover {
+    background-size: 130%;
+}
+
+.img7 {
+    background: url('member3.jpg');
+    background-position: center;
+    transition: 0.5s ease-in;
+    background-size: 120%;
+}
+
+.img7:hover {
+    background-size: 130%;
+}
+
+.tex {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 87%;
+    left: 5%;
+    text-shadow: black 1px 1px;
+}
+
+.tex {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 87%;
+    left: 5%;
+    text-shadow: black 1px 1px;
+}
+
+.tex {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 87%;
+    left: 5%;
+    text-shadow: black 1px 1px;
+}
+
+.shop1 {
+    position: absolute;
+    top: 92%;
+    left: 5%;
+}
+
+.img4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img4 img {
+    width: 97%;
+}
+
+.page3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot {
+    height: 15%
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+
+.menu__link:hover {
+    opacity: 1;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
